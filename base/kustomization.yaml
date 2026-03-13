@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
+  - gatewayclass.yaml
 
 commonLabels:
   app: sample-app
